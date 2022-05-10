@@ -7,39 +7,55 @@
         <title>Contact</title>
     </head>
     <body>
-        <header><h2>Contacto</h2></header>
-        <section>
-            <form action="mailto:gatosyperrosgraciosos@correo.com" method="get">
+        <header>
+            <h1>Perros y gatos</h1>
+            <nav>
                 <ul>
-                    <li>
-                        <label for="name">Nombre:</label>
-                        <input type="text" id="name" name="user_name" />
-                    </li>
-                    <li>
-                        <label for="mail">Email:</label>
-                        <input
-                            type="email"
-                            id="mail"
-                            name="user_mail"
-                            required
-                        />
-                    </li>
-                    <li>
-                        <label for="msg">Comentarios:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="profiles.html">Quienes somos</a></li>
+                    <li><a href="cvs.html">CVs</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
                 </ul>
-                <input type="submit" value="Enviar" />
-            </form>
-        </section>
-        <footer>
-            <small
-                >Conservaremos sus datos mientras sea necesario para darle dicho
-                acceso y posteriormente procederemos a su destrucción. No
-                cederemos sus datos personales a terceros, salvo que estemos
-                obligados por una ley o que Usted lo consienta
-                previamente.</small
-            >
-        </footer>
+            </nav>
+        </header>
+        <main>
+            <header><h2>Contacto</h2></header>
+            <section>
+                <form
+                    action="mailto:gatosyperrosgraciosos@correo.com"
+                    method="get"
+                >
+                    <ul>
+                        <li>
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="mail">Email:</label>
+                            <input
+                                type="email"
+                                id="mail"
+                                name="user_mail"
+                                required
+                            />
+                        </li>
+                        <li>
+                            <label for="msg">Comentarios:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit" value="Enviar" />
+                </form>
+            </section>
+            <footer>
+                <small
+                    >Conservaremos sus datos mientras sea necesario para darle
+                    dicho acceso y posteriormente procederemos a su destrucción.
+                    No cederemos sus datos personales a terceros, salvo que
+                    estemos obligados por una ley o que Usted lo consienta
+                    previamente.</small
+                >
+            </footer>
+        </main>
     </body>
 </html>
