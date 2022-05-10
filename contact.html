@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact</title>
+    </head>
+    <body>
+        <header><h2>Contacto</h2></header>
+        <section>
+            <form action="mailto:gatosyperrosgraciosos@correo.com" method="get">
+                <ul>
+                    <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="mail">Email:</label>
+                        <input
+                            type="email"
+                            id="mail"
+                            name="user_mail"
+                            required
+                        />
+                    </li>
+                    <li>
+                        <label for="msg">Comentarios:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" value="Enviar" />
+            </form>
+        </section>
+        <footer>
+            <small
+                >Conservaremos sus datos mientras sea necesario para darle dicho
+                acceso y posteriormente procederemos a su destrucción. No
+                cederemos sus datos personales a terceros, salvo que estemos
+                obligados por una ley o que Usted lo consienta
+                previamente.</small
+            >
+        </footer>
+    </body>
+</html>
